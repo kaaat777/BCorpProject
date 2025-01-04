@@ -1,0 +1,22 @@
+
+# Ignore Python virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store  # For macOS
+Thumbs.db  # For Windows
+
+# Ignore other files that might be sensitive or large
+config.yaml
+*.log
+
