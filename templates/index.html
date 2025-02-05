@@ -1,0 +1,23 @@
+
+<DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>My B Corp search website</title>
+
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	</head>
+	<body>
+		<h1>Welcome to my B Corp website!</h1>
+		<p>Search for B Corp products below:</p>
+		 <form action="/search" method="get">
+        <input type="text" name="company" placeholder="Type product name">
+        <button type="submit">Search</button>
+    </form>
+    <!-- Link to your JavaScript file -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
+		
+
